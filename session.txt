@@ -1,0 +1,14 @@
+LLM Parameters & Prompt Templates (Brief Explanation)
+LLM Parameters:
+
+max_tokens: limits response length.
+temperature: adjusts randomness (0 = factual, 1+ = creative).
+top_p and top_k: control response diversity.
+stop: defines words that end output.
+frequency_penalty and presence_penalty: controls repetition.
+
+
+Prompt Templates structure input dynamically using placeholders ({topic}):
+
+Example: "Explain {topic} in simple terms."
+Allows customization for different needs (comparisons, step-by-step, pros & cons, etc.).
